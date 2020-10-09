@@ -65,6 +65,7 @@ static TARGETS: &[&str] = &[
     "aarch64-unknown-redox",
     "arm-linux-androideabi",
     "arm-unknown-linux-gnueabi",
+    "armeb-unknown-linux-uclibcgnueabi",
     "arm-unknown-linux-gnueabihf",
     "arm-unknown-linux-musleabi",
     "arm-unknown-linux-musleabihf",

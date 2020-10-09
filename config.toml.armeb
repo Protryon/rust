@@ -1,0 +1,17 @@
+changelog-seen = 1
+[llvm]
+[build]
+target = ["x86_64-unknown-linux-gnu", "armeb-unknown-linux-uclibcgnueabi"] 
+configure-args = []
+docs = false
+[install]
+prefix = "/opt/rust-install"
+[rust]
+[target.x86_64-unknown-linux-gnu]
+[target.armeb-unknown-linux-uclibcgnueabi]
+cc = "/opt/armeb_toolchain/usr/bin/armeb-buildroot-linux-uclibcgnueabi-gcc"
+cxx = "/opt/armeb_toolchain/usr/bin/armeb-buildroot-linux-uclibcgnueabi-c++"
+ar = "/opt/armeb_toolchain/usr/bin/armeb-buildroot-linux-uclibcgnueabi-ar"
+ranlib = "/opt/armeb_toolchain/usr/bin/armeb-buildroot-linux-uclibcgnueabi-ranlib"
+linker = "/opt/armeb_toolchain/usr/bin/armeb-buildroot-linux-uclibcgnueabi-gcc"
+[dist]
